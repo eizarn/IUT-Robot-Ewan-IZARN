@@ -1,0 +1,15 @@
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.csprojAssemblyReference.cache
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\RobotInterface.g.cs
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\App.g.cs
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface_MarkupCompile.cache
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface_MarkupCompile.lref
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\bin\Debug\WpfRobotInterface.exe.config
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\bin\Debug\WpfRobotInterface.exe
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\bin\Debug\WpfRobotInterface.pdb
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\RobotInterface.baml
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.g.resources
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.Properties.Resources.resources
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.csproj.GenerateResource.cache
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.csproj.CoreCompileInputs.cache
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.exe
+C:\Users\ewani\Desktop\CodeRobot\Robot\WpfRobotInterface\obj\Debug\WpfRobotInterface.pdb

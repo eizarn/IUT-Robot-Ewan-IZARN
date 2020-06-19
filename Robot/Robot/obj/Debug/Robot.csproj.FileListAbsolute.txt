@@ -1,0 +1,11 @@
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\bin\Debug\Robot.exe.config
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\bin\Debug\Robot.exe
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\bin\Debug\Robot.pdb
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\obj\Debug\Robot.csprojAssemblyReference.cache
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\obj\Debug\Robot.csproj.CoreCompileInputs.cache
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\obj\Debug\Robot.exe
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\obj\Debug\Robot.pdb
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\bin\Debug\WpfRobotInterface.exe
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\bin\Debug\WpfRobotInterface.pdb
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\bin\Debug\WpfRobotInterface.exe.config
+C:\Users\ewani\Desktop\CodeRobot\Robot\Robot\obj\Debug\Robot.csproj.CopyComplete
