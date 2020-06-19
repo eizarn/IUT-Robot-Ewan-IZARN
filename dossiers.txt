@@ -1,0 +1,4 @@
+le premier dossier (17062020_Robot/carte_Robot_FAMILIAR.X) contient la partie embarquée
+le deuxième (Robot) contient la partie CSharp
+
+Désolé, j'ai eu un peu de mal à mettre mon code sur GitHub (d'où les noms) et je n'ai pas trouvé comment renommer un dossier.
