@@ -1,0 +1,20 @@
+﻿<Window x:Class="Robotinterface2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Robotinterface2"
+        mc:Ignorable="d"
+        Title="Select port" Height="75" Width="200" Background="#FF39374D">
+    <Grid Margin="0">
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="10,11,0,11" VerticalAlignment="Center" Width="120" Foreground="White" BorderBrush="{x:Null}" SelectionChanged="comboBox_SelectionChanged" GotFocus="comboBox_GotFocus">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF4E4C5D" Offset="0"/>
+                    <GradientStop Color="#FF39374D" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Button x:Name="validCom" Content="ok" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Width="40" Background="#FF343434" BorderBrush="#FF939393" Foreground="White" Click="validCom_Click"/>
+    </Grid>
+</Window>

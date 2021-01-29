@@ -1,0 +1,183 @@
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\ExtendedSerialPort.dll
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\ExtendedSerialPort.pdb
+C:\Users\Thomas\Documents\GitHub\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CopyComplete
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Github\IUT-Robot-Thomas-Familiar\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Github\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\TP-EO-5\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CoreCompileInputs.cache
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\GEII Robot\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+D:\Robot\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\ComPrompt.g.cs
+C:\Users\Table2\Desktop\Robot\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\ComPrompt.baml
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CoreCompileInputs.cache
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\Table2\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\GEII Robot\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CoreCompileInputs.cache
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+D:\robo2110\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CopyComplete
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe.config
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.exe
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Robotinterface2.pdb
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csprojAssemblyReference.cache
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.g.cs
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\App.g.cs
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.cache
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2_MarkupCompile.lref
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\MainWindow.baml
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.g.resources
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.Properties.Resources.resources
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.GenerateResource.cache
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CopyComplete
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.exe
+C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Utilities.dll
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Utilities.pdb

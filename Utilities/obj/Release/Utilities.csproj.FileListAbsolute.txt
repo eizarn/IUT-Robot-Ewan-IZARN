@@ -1,0 +1,5 @@
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\obj\Release\Utilities.csprojAssemblyReference.cache
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\bin\Release\Utilities.dll
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\bin\Release\Utilities.pdb
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\obj\Release\Utilities.dll
+C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\obj\Release\Utilities.pdb
