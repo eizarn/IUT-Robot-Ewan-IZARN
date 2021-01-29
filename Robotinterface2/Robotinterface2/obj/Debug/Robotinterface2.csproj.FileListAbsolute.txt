@@ -181,3 +181,7 @@ C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2
 C:\Users\LattePanda\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.pdb
 C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Utilities.dll
 C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Utilities.pdb
+C:\GitHub\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\MouseKeyboardActivityMonitor.dll
+C:\GitHub\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Utilities.dll
+C:\GitHub\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\bin\Debug\Utilities.pdb
+C:\GitHub\IUT-Robot-Ewan-IZARN\Robotinterface2\Robotinterface2\obj\Debug\Robotinterface2.csproj.CopyComplete

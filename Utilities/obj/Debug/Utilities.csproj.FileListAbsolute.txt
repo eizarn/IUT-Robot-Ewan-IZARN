@@ -46,3 +46,8 @@ C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\bin\Debug\Utilities.pdb
 C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
 C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\obj\Debug\Utilities.dll
 C:\Users\TP-EO-5\Desktop\IUT-Robot-Ewan-IZARN\Utilities\obj\Debug\Utilities.pdb
+C:\GitHub\IUT-Robot-Ewan-IZARN\Utilities\bin\Debug\Utilities.dll
+C:\GitHub\IUT-Robot-Ewan-IZARN\Utilities\bin\Debug\Utilities.pdb
+C:\GitHub\IUT-Robot-Ewan-IZARN\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\GitHub\IUT-Robot-Ewan-IZARN\Utilities\obj\Debug\Utilities.dll
+C:\GitHub\IUT-Robot-Ewan-IZARN\Utilities\obj\Debug\Utilities.pdb

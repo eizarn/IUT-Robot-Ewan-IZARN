@@ -152,5 +152,5 @@ void ADCSendValues(void)
 //        ADCValue[4] = (int) robotState.distanceTelemetreXDroit;
 //    else ADCValue[4] = 250;
 
-    UartEncodeAndSendMessage (0x0030, 5, ADCValue);
+//    UartEncodeAndSendMessage (0x0030, 5, ADCValue);
 }

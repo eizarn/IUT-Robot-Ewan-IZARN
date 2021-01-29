@@ -36,18 +36,18 @@ int main(void) {
     // Boucle Principale
     /****************************************************************************************************/
     while (1) {
-        if (timestamp%1000 == 0)
-        {
-            unsigned char peilaude[] = {'C', 'O', 'N', 'N', 'A', 'R', 'D', '\0'};
-            UartEncodeAndSendMessage(0x0080, 8, peilaude);
-        }
-        
-//        int i;
-//        for(i=0; i<CB_RX1_GetDataSize(); i++)
+//        if (timestamp%1000 == 0)
 //        {
-//            unsigned char c = CB_RX1_Get();
-//            UartDecodeMessage(c);
-//        }        
+//            unsigned char peilaude[] = {'C', 'O', 'N', 'N', 'A', 'R', 'D', '\0'};
+//            UartEncodeAndSendMessage(0x0080, 8, peilaude);
+//        }
+        
+        int i;
+        for(i=0; i<CB_RX1_GetDataSize(); i++)
+        {
+            unsigned char c = CB_RX1_Get();
+            UartDecodeMessage(c);
+        }        
     }
 }
 

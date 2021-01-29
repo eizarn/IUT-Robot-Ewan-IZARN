@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project>
-  <executable name="dist/default/debug/Antoine_Bourgeacq_Robot.X.debug.elf">
+  <executable name="dist/default/production/Antoine_Bourgeacq_Robot.X.production.elf">
     <memory name="data">
       <units>bytes</units>
       <length>49152</length>
-      <used>2346</used>
-      <free>46806</free>
+      <used>2266</used>
+      <free>46886</free>
     </memory>
     <memory name="program">
       <units>bytes</units>

@@ -16,16 +16,15 @@ unsigned char UartCalculateChecksum(int msgFunction, int msgPayloadLength, unsig
     char actuel, sortie = 0;
 
     sortie ^= 0xFE;
-    sortie ^= (char)((msgFunction & 0xFF00) / 0x100);
+    sortie ^= (char)(msgFunction<<8);
     sortie ^= (char)(msgFunction & 0xFF);
-    sortie ^= (char)((msgPayloadLength & 0xFF00) / 0x100);
+    sortie ^= (char)(msgPayloadLength<<8);
     sortie ^= (char)(msgPayloadLength & 0xFF);
     
     int i;
     for (i=0; i<msgPayloadLength; i++)
     {
-        actuel = msgPayload[i];
-        sortie ^= actuel;
+        sortie ^= msgPayload[i];
     }
 
     return sortie;
@@ -123,11 +122,11 @@ void UartDecodeMessage (unsigned char c)
 
 void UartProcessDecodedMessage (int function, int payloadLength, unsigned char *payload)
 {// Fonction appelee apres le decodage pour executer l?action
-//  correspondant au message recu
+//  correspondant au message recuss
     switch (function)
     {
         case 0x0080 :
-            UartEncodeAndSendMessage (msgDecodedFunction, msgDecodedPayloadLength, msgDecodedPayload);
+            UartEncodeAndSendMessage(msgDecodedFunction, msgDecodedPayloadLength, msgDecodedPayload);
             break;
             
         case 0x0020 :

@@ -4,17 +4,10 @@ Tool Name:
   c:\program files\microchip\xc16\v1.60\bin\bin\..\bin/elf-ld.exe
 
 Command:
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.00 \
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.01 \
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.02 \
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.03 \
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.04 \
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.05 \
-  -TC:\\Users\\TP-EO-5\\AppData\\Local\\Temp\\tmp00002510.06 \
   -p33EP512GM706 \
   --mdfp=C:/Users/TP-EO-5/.mchp_packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16 \
   -o \
-  dist/default/debug/Antoine_Bourgeacq_Robot.X.debug.elf \
+  dist/default/production/Antoine_Bourgeacq_Robot.X.production.elf \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/.. \
   -LC:/Users/TP-EO-5/.mchp_packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16/bin/../support/PIC24E/gld \
   -LC:/Users/TP-EO-5/.mchp_packs/Microchip/dsPIC33E-GM-GP-MC-GU-MU_DFP/1.3.85/xc16/bin/../support/dsPIC33E/gld \
@@ -26,25 +19,22 @@ Command:
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC33C/gld \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC33E/gld \
   -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC33F/gld \
-  build/default/debug/main.o \
-  build/default/debug/ChipConfig.o \
-  build/default/debug/IO.o \
-  build/default/debug/timer.o \
-  build/default/debug/Robot.o \
-  build/default/debug/Toolbox.o \
-  build/default/debug/PWM.o \
-  build/default/debug/ADC.o \
-  build/default/debug/UART.o \
-  build/default/debug/CB_TX1.o \
-  build/default/debug/CB_RX1.o \
-  build/default/debug/UART_Protocol.o \
-  build/default/debug/QEI.o \
+  build/default/production/main.o \
+  build/default/production/ChipConfig.o \
+  build/default/production/IO.o \
+  build/default/production/timer.o \
+  build/default/production/Robot.o \
+  build/default/production/Toolbox.o \
+  build/default/production/PWM.o \
+  build/default/production/ADC.o \
+  build/default/production/UART.o \
+  build/default/production/CB_TX1.o \
+  build/default/production/CB_RX1.o \
+  build/default/production/UART_Protocol.o \
+  build/default/production/QEI.o \
   --local-stack \
   --defsym=__MPLAB_BUILD=1 \
-  --defsym=__MPLAB_DEBUG=1 \
-  --defsym=__DEBUG=1 \
-  --defsym=__MPLAB_DEBUGGER_ICD3=1 \
-  -Tp33EP512GM706.gld.07 \
+  -Tp33EP512GM706.gld.00 \
   --stack=16 \
   --check-sections \
   --data-init \
@@ -56,10 +46,10 @@ Command:
   --stackguard=16 \
   --no-force-link \
   --smart-io \
-  -Map=dist/default/debug/Antoine_Bourgeacq_Robot.X.debug.map \
+  -Map=dist/default/production/Antoine_Bourgeacq_Robot.X.production.map \
   --report-mem \
   --memorysummary \
-  dist/default/debug/memoryfile.xml \
+  dist/default/production/memoryfile.xml \
   -start-group \
   --library=lega-pic30-elf \
   --library=m-elf \
@@ -77,21 +67,21 @@ c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\liblega-pic30-elf.a(data
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\liblega-pic30-elf.a(crt_start_mode_normalep.Leo)
                               (__crt_start_mode_normal)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.epeo)
-                              build/default/debug/PWM.o (___subsf3)
+                              build/default/production/PWM.o (___subsf3)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(divsf3.epeo)
-                              build/default/debug/timer.o (___divsf3)
+                              build/default/production/timer.o (___divsf3)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(feqltle.epeo)
-                              build/default/debug/Toolbox.o (___ltsf2)
+                              build/default/production/Toolbox.o (___ltsf2)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fgtge.epeo)
-                              build/default/debug/timer.o (___gtsf2)
+                              build/default/production/timer.o (___gtsf2)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fixsfsi.epeo)
-                              build/default/debug/timer.o (_(float, int, long long, short, float, short, int))
+                              build/default/production/timer.o (_(float, int, long long, short, float, short, int))
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fixunssfsi.epeo)
-                              build/default/debug/PWM.o (___fixunssfsi)
+                              build/default/production/PWM.o (___fixunssfsi)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatsisf.epeo)
-                              build/default/debug/PWM.o (___floatsisf)
+                              build/default/production/PWM.o (___floatsisf)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatunsisf.epeo)
-                              build/default/debug/ADC.o (___floatunsisf)
+                              build/default/production/ADC.o (___floatunsisf)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fpack.epeo)
                               c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.epeo) (__fpack)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack.epeo)
@@ -101,7 +91,7 @@ c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack2.epeo
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(futil.epeo)
                               c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.epeo) (__fPropagateNaN)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(mulsf3.epeo)
-                              build/default/debug/Toolbox.o (___mulsf3)
+                              build/default/production/Toolbox.o (___mulsf3)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fcompare.epeo)
                               c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(feqltle.epeo) (__fcompare)
 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatdisf.epeo)
@@ -148,19 +138,12 @@ section                    address   length (PC units)   length (bytes) (dec)
 
 section                    address      alignment gaps    total length  (dec)
 -------                    -------      --------------    -------------------
-reserve_data_0x1000         0x1000                0x1c            0x1c  (28)
-reserve_data_0x101c         0x101c                 0x2             0x2  (2)
-reserve_data_0x101e         0x101e                 0x2             0x2  (2)
-reserve_data_0x1020         0x1020                 0x2             0x2  (2)
-reserve_data_0x1022         0x1022                 0x2             0x2  (2)
-reserve_data_0x1024         0x1024                 0x4             0x4  (4)
-reserve_data_0x1028         0x1028                0x28            0x28  (40)
-.nbss                       0x1050                   0            0x30  (48)
-.ndata                      0x1080                   0             0x2  (2)
-.nbss                       0x1082                   0             0x2  (2)
-.bss                        0x1084                   0           0x8a6  (2214)
+.nbss                       0x1000                   0            0x30  (48)
+.ndata                      0x1030                   0             0x2  (2)
+.nbss                       0x1032                   0             0x2  (2)
+.bss                        0x1034                   0           0x8a6  (2214)
 
-                 Total "data" memory used (bytes):          0x92a  (2346) 4%
+                 Total "data" memory used (bytes):          0x8da  (2266) 4%
 
 
 Dynamic Memory Usage
@@ -168,76 +151,76 @@ Dynamic Memory Usage
 region                     address                      maximum length  (dec)
 ------                     -------                      ---------------------
 heap                             0                                   0  (0)
-stack                       0x192a                              0x66d6  (26326)
+stack                       0x18da                              0x6726  (26406)
 
-                 Maximum dynamic memory (bytes):         0x66d6  (26326)
+                 Maximum dynamic memory (bytes):         0x6726  (26406)
 
 Info: Project is using a large data memory model when small data memory model is sufficient.
 
 
 External Symbols in Data Memory (by address):
 
-                    0x1050                  _rcvState
-                    0x1052                  _isValidSOF
-                    0x1054                  _lastInvalidChar
-                    0x1056                  _msgDecodedFunction
-                    0x1058                  _msgDecodedPayloadLength
-                    0x105a                  _msgDecodedPayloadIndex
-                    0x105c                  _receivedChecksum
-                    0x105d                  _calculatedChecksum
-                    0x105e                  _isValidChecksum
-                    0x1060                  _decodeFinishedFlag
-                    0x1062                  _ADCResultIndex
-                    0x106c                  _ADCConversionFinishedFlag
-                    0x106e                  _timestamp
-                    0x1072                  _toggle
-                    0x1074                  _cbTx1Head
-                    0x1076                  _cbTx1Tail
-                    0x1078                  _isTransmitting
-                    0x107a                  _cbRx1Head
-                    0x107c                  _cbRx1Tail
-                    0x107e                  _stateRobot
-                    0x107f                  _nextStateRobot
-                    0x1080                  _acceleration
-                    0x1081                  _deceleration
-                    0x1082                  _accD
-                    0x1083                  _accG
-                    0x1084                  _cbTx1Buffer
-                    0x1484                  _cbRx1Buffer
-                    0x1884                  _msgDecodedPayload
-                    0x1904                  _robotState
+                    0x1000                  _rcvState
+                    0x1002                  _isValidSOF
+                    0x1004                  _lastInvalidChar
+                    0x1006                  _msgDecodedFunction
+                    0x1008                  _msgDecodedPayloadLength
+                    0x100a                  _msgDecodedPayloadIndex
+                    0x100c                  _receivedChecksum
+                    0x100d                  _calculatedChecksum
+                    0x100e                  _isValidChecksum
+                    0x1010                  _decodeFinishedFlag
+                    0x1012                  _ADCResultIndex
+                    0x101c                  _ADCConversionFinishedFlag
+                    0x101e                  _timestamp
+                    0x1022                  _toggle
+                    0x1024                  _cbTx1Head
+                    0x1026                  _cbTx1Tail
+                    0x1028                  _isTransmitting
+                    0x102a                  _cbRx1Head
+                    0x102c                  _cbRx1Tail
+                    0x102e                  _stateRobot
+                    0x102f                  _nextStateRobot
+                    0x1030                  _acceleration
+                    0x1031                  _deceleration
+                    0x1032                  _accD
+                    0x1033                  _accG
+                    0x1034                  _cbTx1Buffer
+                    0x1434                  _cbRx1Buffer
+                    0x1834                  _msgDecodedPayload
+                    0x18b4                  _robotState
 
 External Symbols in Data Memory (by name):
 
-                    0x106c                  _ADCConversionFinishedFlag
-                    0x1062                  _ADCResultIndex
-                    0x1082                  _accD
-                    0x1083                  _accG
-                    0x1080                  _acceleration
-                    0x105d                  _calculatedChecksum
-                    0x1484                  _cbRx1Buffer
-                    0x107a                  _cbRx1Head
-                    0x107c                  _cbRx1Tail
-                    0x1084                  _cbTx1Buffer
-                    0x1074                  _cbTx1Head
-                    0x1076                  _cbTx1Tail
-                    0x1081                  _deceleration
-                    0x1060                  _decodeFinishedFlag
-                    0x1078                  _isTransmitting
-                    0x105e                  _isValidChecksum
-                    0x1052                  _isValidSOF
-                    0x1054                  _lastInvalidChar
-                    0x1056                  _msgDecodedFunction
-                    0x1884                  _msgDecodedPayload
-                    0x105a                  _msgDecodedPayloadIndex
-                    0x1058                  _msgDecodedPayloadLength
-                    0x107f                  _nextStateRobot
-                    0x1050                  _rcvState
-                    0x105c                  _receivedChecksum
-                    0x1904                  _robotState
-                    0x107e                  _stateRobot
-                    0x106e                  _timestamp
-                    0x1072                  _toggle
+                    0x101c                  _ADCConversionFinishedFlag
+                    0x1012                  _ADCResultIndex
+                    0x1032                  _accD
+                    0x1033                  _accG
+                    0x1030                  _acceleration
+                    0x100d                  _calculatedChecksum
+                    0x1434                  _cbRx1Buffer
+                    0x102a                  _cbRx1Head
+                    0x102c                  _cbRx1Tail
+                    0x1034                  _cbTx1Buffer
+                    0x1024                  _cbTx1Head
+                    0x1026                  _cbTx1Tail
+                    0x1031                  _deceleration
+                    0x1010                  _decodeFinishedFlag
+                    0x1028                  _isTransmitting
+                    0x100e                  _isValidChecksum
+                    0x1002                  _isValidSOF
+                    0x1004                  _lastInvalidChar
+                    0x1006                  _msgDecodedFunction
+                    0x1834                  _msgDecodedPayload
+                    0x100a                  _msgDecodedPayloadIndex
+                    0x1008                  _msgDecodedPayloadLength
+                    0x102f                  _nextStateRobot
+                    0x1000                  _rcvState
+                    0x100c                  _receivedChecksum
+                    0x18b4                  _robotState
+                    0x102e                  _stateRobot
+                    0x101e                  _timestamp
+                    0x1022                  _toggle
 
 External Symbols in Program Memory (by address):
 
@@ -436,58 +419,20 @@ FUID3            0x800ffe           0x000002
 
 Linker script and memory map
 
-
-reserve_data_0x1000
-                    0x1000         0x1c
-                    0x101c                  . = 0x1c
- *fill*             0x1000         0x1c00
-
-reserve_data_0x101c
-                    0x101c          0x2
-                    0x101e                  . = 0x2
- *fill*             0x101c          0x200
-
-reserve_data_0x101e
-                    0x101e          0x2
-                    0x1020                  . = 0x2
- *fill*             0x101e          0x200
-
-reserve_data_0x1020
-                    0x1020          0x2
-                    0x1022                  . = 0x2
- *fill*             0x1020          0x200
-
-reserve_data_0x1022
-                    0x1022          0x2
-                    0x1024                  . = 0x2
- *fill*             0x1022          0x200
-
-reserve_data_0x1024
-                    0x1024          0x4
-                    0x1028                  . = 0x4
- *fill*             0x1024          0x400
-
-reserve_data_0x1028
-                    0x1028         0x28
-                    0x1050                  . = 0x28
- *fill*             0x1028         0x2800
-LOAD build/default/debug/main.o
-LOAD build/default/debug/ChipConfig.o
-LOAD build/default/debug/IO.o
-LOAD build/default/debug/timer.o
-LOAD build/default/debug/Robot.o
-LOAD build/default/debug/Toolbox.o
-LOAD build/default/debug/PWM.o
-LOAD build/default/debug/ADC.o
-LOAD build/default/debug/UART.o
-LOAD build/default/debug/CB_TX1.o
-LOAD build/default/debug/CB_RX1.o
-LOAD build/default/debug/UART_Protocol.o
-LOAD build/default/debug/QEI.o
+LOAD build/default/production/main.o
+LOAD build/default/production/ChipConfig.o
+LOAD build/default/production/IO.o
+LOAD build/default/production/timer.o
+LOAD build/default/production/Robot.o
+LOAD build/default/production/Toolbox.o
+LOAD build/default/production/PWM.o
+LOAD build/default/production/ADC.o
+LOAD build/default/production/UART.o
+LOAD build/default/production/CB_TX1.o
+LOAD build/default/production/CB_RX1.o
+LOAD build/default/production/UART_Protocol.o
+LOAD build/default/production/QEI.o
                     0x0001                  __MPLAB_BUILD = 0x1
-                    0x0001                  __MPLAB_DEBUG = 0x1
-                    0x0001                  __DEBUG = 0x1
-                    0x0001                  __MPLAB_DEBUGGER_ICD3 = 0x1
 LOAD p33EP512GM706
 LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libfx-elf.a
                     0x557f0                  __FICD = 0x557f0
@@ -525,15 +470,15 @@ LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libfx-elf.a
  *(.user_init)
  *(.handle)
  *(.isr*)
- .isr.text        0x0002fa         0x44 build/default/debug/timer.o
+ .isr.text        0x0002fa         0x44 build/default/production/timer.o
                   0x0002fa                  __T3Interrupt
                   0x000302                  __T1Interrupt
                   0x000326                  __T4Interrupt
- .isr.text        0x00033e         0x2e build/default/debug/ADC.o
+ .isr.text        0x00033e         0x2e build/default/production/ADC.o
                   0x00033e                  __AD1Interrupt
- .isr.text        0x00036c         0x2a build/default/debug/CB_TX1.o
+ .isr.text        0x00036c         0x2a build/default/production/CB_TX1.o
                   0x00036c                  __U1TXInterrupt
- .isr.text        0x000396         0x4e build/default/debug/CB_RX1.o
+ .isr.text        0x000396         0x4e build/default/production/CB_RX1.o
                   0x000396                  __U1RXInterrupt
  .isr             0x0003e4          0x4 default_isr
                   0x0003e4                  __DefaultInterrupt
@@ -616,7 +561,7 @@ __FOSCSEL
 
 __FGS             0x0557fa          0x2
  *(__FGS.sec*)
- __FGS.sec        0x0557fa          0x2 /CW/_FGSЧ2
+ __FGS.sec        0x0557fa          0x2 /CW/_FGS
                   0x0557fa                  __FGS.sec
 
 __FUID0
@@ -636,82 +581,82 @@ __FUID3
 
 .debug_info       0x000000       0x6e16
  *(.debug_info)
- .debug_info      0x000000        0x44f build/default/debug/main.o
- .debug_info      0x00044f        0x53d build/default/debug/ChipConfig.o
- .debug_info      0x00098c        0xc58 build/default/debug/IO.o
- .debug_info      0x0015e4        0xf19 build/default/debug/timer.o
- .debug_info      0x0024fd        0x274 build/default/debug/Robot.o
- .debug_info      0x002771        0x20b build/default/debug/Toolbox.o
- .debug_info      0x00297c        0xf64 build/default/debug/PWM.o
- .debug_info      0x0038e0       0x14c8 build/default/debug/ADC.o
- .debug_info      0x004da8        0x885 build/default/debug/UART.o
- .debug_info      0x00562d        0x4f2 build/default/debug/CB_TX1.o
- .debug_info      0x005b1f        0x634 build/default/debug/CB_RX1.o
- .debug_info      0x006153        0x66e build/default/debug/UART_Protocol.o
- .debug_info      0x0067c1        0x655 build/default/debug/QEI.o
+ .debug_info      0x000000        0x44f build/default/production/main.o
+ .debug_info      0x00044f        0x53d build/default/production/ChipConfig.o
+ .debug_info      0x00098c        0xc58 build/default/production/IO.o
+ .debug_info      0x0015e4        0xf19 build/default/production/timer.o
+ .debug_info      0x0024fd        0x274 build/default/production/Robot.o
+ .debug_info      0x002771        0x20b build/default/production/Toolbox.o
+ .debug_info      0x00297c        0xf64 build/default/production/PWM.o
+ .debug_info      0x0038e0       0x14c8 build/default/production/ADC.o
+ .debug_info      0x004da8        0x885 build/default/production/UART.o
+ .debug_info      0x00562d        0x4f2 build/default/production/CB_TX1.o
+ .debug_info      0x005b1f        0x634 build/default/production/CB_RX1.o
+ .debug_info      0x006153        0x66e build/default/production/UART_Protocol.o
+ .debug_info      0x0067c1        0x655 build/default/production/QEI.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0xd52
  *(.debug_abbrev)
- .debug_abbrev    0x000000        0x126 build/default/debug/main.o
- .debug_abbrev    0x000126         0xc3 build/default/debug/ChipConfig.o
- .debug_abbrev    0x0001e9         0xc3 build/default/debug/IO.o
- .debug_abbrev    0x0002ac        0x133 build/default/debug/timer.o
- .debug_abbrev    0x0003df         0x8c build/default/debug/Robot.o
- .debug_abbrev    0x00046b         0x6d build/default/debug/Toolbox.o
- .debug_abbrev    0x0004d8        0x176 build/default/debug/PWM.o
- .debug_abbrev    0x00064e        0x193 build/default/debug/ADC.o
- .debug_abbrev    0x0007e1        0x103 build/default/debug/UART.o
- .debug_abbrev    0x0008e4        0x152 build/default/debug/CB_TX1.o
- .debug_abbrev    0x000a36        0x15e build/default/debug/CB_RX1.o
- .debug_abbrev    0x000b94        0x136 build/default/debug/UART_Protocol.o
- .debug_abbrev    0x000cca         0x88 build/default/debug/QEI.o
+ .debug_abbrev    0x000000        0x126 build/default/production/main.o
+ .debug_abbrev    0x000126         0xc3 build/default/production/ChipConfig.o
+ .debug_abbrev    0x0001e9         0xc3 build/default/production/IO.o
+ .debug_abbrev    0x0002ac        0x133 build/default/production/timer.o
+ .debug_abbrev    0x0003df         0x8c build/default/production/Robot.o
+ .debug_abbrev    0x00046b         0x6d build/default/production/Toolbox.o
+ .debug_abbrev    0x0004d8        0x176 build/default/production/PWM.o
+ .debug_abbrev    0x00064e        0x193 build/default/production/ADC.o
+ .debug_abbrev    0x0007e1        0x103 build/default/production/UART.o
+ .debug_abbrev    0x0008e4        0x152 build/default/production/CB_TX1.o
+ .debug_abbrev    0x000a36        0x15e build/default/production/CB_RX1.o
+ .debug_abbrev    0x000b94        0x136 build/default/production/UART_Protocol.o
+ .debug_abbrev    0x000cca         0x88 build/default/production/QEI.o
 
 .debug_line       0x000000        0xe87
  *(.debug_line)
- .debug_line      0x000000        0x179 build/default/debug/main.o
- .debug_line      0x000179        0x10d build/default/debug/ChipConfig.o
- .debug_line      0x000286        0x111 build/default/debug/IO.o
- .debug_line      0x000397        0x16f build/default/debug/timer.o
- .debug_line      0x000506         0x30 build/default/debug/Robot.o
- .debug_line      0x000536         0x54 build/default/debug/Toolbox.o
- .debug_line      0x00058a        0x170 build/default/debug/PWM.o
- .debug_line      0x0006fa        0x16a build/default/debug/ADC.o
- .debug_line      0x000864        0x112 build/default/debug/UART.o
- .debug_line      0x000976        0x139 build/default/debug/CB_TX1.o
- .debug_line      0x000aaf        0x133 build/default/debug/CB_RX1.o
- .debug_line      0x000be2        0x19f build/default/debug/UART_Protocol.o
- .debug_line      0x000d81        0x106 build/default/debug/QEI.o
+ .debug_line      0x000000        0x179 build/default/production/main.o
+ .debug_line      0x000179        0x10d build/default/production/ChipConfig.o
+ .debug_line      0x000286        0x111 build/default/production/IO.o
+ .debug_line      0x000397        0x16f build/default/production/timer.o
+ .debug_line      0x000506         0x30 build/default/production/Robot.o
+ .debug_line      0x000536         0x54 build/default/production/Toolbox.o
+ .debug_line      0x00058a        0x170 build/default/production/PWM.o
+ .debug_line      0x0006fa        0x16a build/default/production/ADC.o
+ .debug_line      0x000864        0x112 build/default/production/UART.o
+ .debug_line      0x000976        0x139 build/default/production/CB_TX1.o
+ .debug_line      0x000aaf        0x133 build/default/production/CB_RX1.o
+ .debug_line      0x000be2        0x19f build/default/production/UART_Protocol.o
+ .debug_line      0x000d81        0x106 build/default/production/QEI.o
 
 .debug_frame      0x000000        0x78e
  *(.debug_frame)
- .debug_frame     0x000000         0xb0 build/default/debug/main.o
- .debug_frame     0x0000b0         0x2e build/default/debug/ChipConfig.o
- .debug_frame     0x0000de         0x2e build/default/debug/IO.o
- .debug_frame     0x00010c        0x13c build/default/debug/timer.o
- .debug_frame     0x000248         0xd0 build/default/debug/Toolbox.o
- .debug_frame     0x000318         0x8e build/default/debug/PWM.o
- .debug_frame     0x0003a6         0xf8 build/default/debug/ADC.o
- .debug_frame     0x00049e         0x48 build/default/debug/UART.o
- .debug_frame     0x0004e6        0x108 build/default/debug/CB_TX1.o
- .debug_frame     0x0005ee         0xd4 build/default/debug/CB_RX1.o
- .debug_frame     0x0006c2         0x84 build/default/debug/UART_Protocol.o
- .debug_frame     0x000746         0x48 build/default/debug/QEI.o
+ .debug_frame     0x000000         0xb0 build/default/production/main.o
+ .debug_frame     0x0000b0         0x2e build/default/production/ChipConfig.o
+ .debug_frame     0x0000de         0x2e build/default/production/IO.o
+ .debug_frame     0x00010c        0x13c build/default/production/timer.o
+ .debug_frame     0x000248         0xd0 build/default/production/Toolbox.o
+ .debug_frame     0x000318         0x8e build/default/production/PWM.o
+ .debug_frame     0x0003a6         0xf8 build/default/production/ADC.o
+ .debug_frame     0x00049e         0x48 build/default/production/UART.o
+ .debug_frame     0x0004e6        0x108 build/default/production/CB_TX1.o
+ .debug_frame     0x0005ee         0xd4 build/default/production/CB_RX1.o
+ .debug_frame     0x0006c2         0x84 build/default/production/UART_Protocol.o
+ .debug_frame     0x000746         0x48 build/default/production/QEI.o
 
 .debug_str        0x000000        0x40d
  *(.debug_str)
- .debug_str       0x000000         0x28 build/default/debug/main.o
- .debug_str       0x000028         0x16 build/default/debug/ChipConfig.o
- .debug_str       0x00003e         0x4c build/default/debug/IO.o
- .debug_str       0x00008a         0x7f build/default/debug/timer.o
- .debug_str       0x000109          0x6 build/default/debug/Toolbox.o
- .debug_str       0x00010f         0x7f build/default/debug/PWM.o
- .debug_str       0x00018e         0xce build/default/debug/ADC.o
- .debug_str       0x00025c         0x27 build/default/debug/UART.o
- .debug_str       0x000283         0x38 build/default/debug/CB_TX1.o
- .debug_str       0x0002bb         0x33 build/default/debug/CB_RX1.o
- .debug_str       0x0002ee         0xcb build/default/debug/UART_Protocol.o
- .debug_str       0x0003b9         0x54 build/default/debug/QEI.o
+ .debug_str       0x000000         0x28 build/default/production/main.o
+ .debug_str       0x000028         0x16 build/default/production/ChipConfig.o
+ .debug_str       0x00003e         0x4c build/default/production/IO.o
+ .debug_str       0x00008a         0x7f build/default/production/timer.o
+ .debug_str       0x000109          0x6 build/default/production/Toolbox.o
+ .debug_str       0x00010f         0x7f build/default/production/PWM.o
+ .debug_str       0x00018e         0xce build/default/production/ADC.o
+ .debug_str       0x00025c         0x27 build/default/production/UART.o
+ .debug_str       0x000283         0x38 build/default/production/CB_TX1.o
+ .debug_str       0x0002bb         0x33 build/default/production/CB_RX1.o
+ .debug_str       0x0002ee         0xcb build/default/production/UART_Protocol.o
+ .debug_str       0x0003b9         0x54 build/default/production/QEI.o
 
 .debug_loc
  *(.debug_loc)
@@ -723,31 +668,31 @@ __FUID3
                   0x000000        0x739
  *(.debug_pubnames)
  .debug_pubnames
-                  0x000000         0xbd build/default/debug/main.o
+                  0x000000         0xbd build/default/production/main.o
  .debug_pubnames
-                  0x0000bd         0x25 build/default/debug/ChipConfig.o
+                  0x0000bd         0x25 build/default/production/ChipConfig.o
  .debug_pubnames
-                  0x0000e2         0x1d build/default/debug/IO.o
+                  0x0000e2         0x1d build/default/production/IO.o
  .debug_pubnames
-                  0x0000ff         0xc3 build/default/debug/timer.o
+                  0x0000ff         0xc3 build/default/production/timer.o
  .debug_pubnames
-                  0x0001c2         0x21 build/default/debug/Robot.o
+                  0x0001c2         0x21 build/default/production/Robot.o
  .debug_pubnames
-                  0x0001e3         0x64 build/default/debug/Toolbox.o
+                  0x0001e3         0x64 build/default/production/Toolbox.o
  .debug_pubnames
-                  0x000247         0x8d build/default/debug/PWM.o
+                  0x000247         0x8d build/default/production/PWM.o
  .debug_pubnames
-                  0x0002d4         0xf8 build/default/debug/ADC.o
+                  0x0002d4         0xf8 build/default/production/ADC.o
  .debug_pubnames
-                  0x0003cc         0x35 build/default/debug/UART.o
+                  0x0003cc         0x35 build/default/production/UART.o
  .debug_pubnames
-                  0x000401         0xe7 build/default/debug/CB_TX1.o
+                  0x000401         0xe7 build/default/production/CB_TX1.o
  .debug_pubnames
-                  0x0004e8         0xbd build/default/debug/CB_RX1.o
+                  0x0004e8         0xbd build/default/production/CB_RX1.o
  .debug_pubnames
-                  0x0005a5        0x168 build/default/debug/UART_Protocol.o
+                  0x0005a5        0x168 build/default/production/UART_Protocol.o
  .debug_pubnames
-                  0x00070d         0x2c build/default/debug/QEI.o
+                  0x00070d         0x2c build/default/production/QEI.o
 
 .debug_ranges
  *(.debug_ranges)
@@ -755,29 +700,29 @@ __FUID3
 .debug_aranges    0x000000        0x120
  *(.debug_aranges)
  .debug_aranges
-                  0x000000         0x18 build/default/debug/main.o
+                  0x000000         0x18 build/default/production/main.o
  .debug_aranges
-                  0x000018         0x18 build/default/debug/ChipConfig.o
+                  0x000018         0x18 build/default/production/ChipConfig.o
  .debug_aranges
-                  0x000030         0x18 build/default/debug/IO.o
+                  0x000030         0x18 build/default/production/IO.o
  .debug_aranges
-                  0x000048         0x18 build/default/debug/timer.o
+                  0x000048         0x18 build/default/production/timer.o
  .debug_aranges
-                  0x000060         0x18 build/default/debug/Toolbox.o
+                  0x000060         0x18 build/default/production/Toolbox.o
  .debug_aranges
-                  0x000078         0x18 build/default/debug/PWM.o
+                  0x000078         0x18 build/default/production/PWM.o
  .debug_aranges
-                  0x000090         0x18 build/default/debug/ADC.o
+                  0x000090         0x18 build/default/production/ADC.o
  .debug_aranges
-                  0x0000a8         0x18 build/default/debug/UART.o
+                  0x0000a8         0x18 build/default/production/UART.o
  .debug_aranges
-                  0x0000c0         0x18 build/default/debug/CB_TX1.o
+                  0x0000c0         0x18 build/default/production/CB_TX1.o
  .debug_aranges
-                  0x0000d8         0x18 build/default/debug/CB_RX1.o
+                  0x0000d8         0x18 build/default/production/CB_RX1.o
  .debug_aranges
-                  0x0000f0         0x18 build/default/debug/UART_Protocol.o
+                  0x0000f0         0x18 build/default/production/UART_Protocol.o
  .debug_aranges
-                  0x000108         0x18 build/default/debug/QEI.o
+                  0x000108         0x18 build/default/production/QEI.o
                     0x0000                  WREG0 = 0x0
                     0x0000                  _WREG0 = 0x0
                     0x0002                  WREG1 = 0x2
@@ -3012,66 +2957,66 @@ LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\liblega-pic30-elf.a
 LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a
 LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\liblega-c-elf.a
 END GROUP
-OUTPUT(dist/default/debug/Antoine_Bourgeacq_Robot.X.debug.elf elf32-pic30)
-LOAD /CW/_FGSЧ2
+OUTPUT(dist/default/production/Antoine_Bourgeacq_Robot.X.production.elf elf32-pic30)
+LOAD /CW/_FGS
 LOAD default_isr
 LOAD data_init
 
 .debug_pubtypes
                   0x000120        0x834
  .debug_pubtypes
-                  0x000120         0x5b build/default/debug/main.o
+                  0x000120         0x5b build/default/production/main.o
  .debug_pubtypes
-                  0x00017b         0x61 build/default/debug/ChipConfig.o
+                  0x00017b         0x61 build/default/production/ChipConfig.o
  .debug_pubtypes
-                  0x0001dc        0x104 build/default/debug/IO.o
+                  0x0001dc        0x104 build/default/production/IO.o
  .debug_pubtypes
-                  0x0002e0        0x12c build/default/debug/timer.o
+                  0x0002e0        0x12c build/default/production/timer.o
  .debug_pubtypes
-                  0x00040c         0x3a build/default/debug/Robot.o
+                  0x00040c         0x3a build/default/production/Robot.o
  .debug_pubtypes
-                  0x000446        0x122 build/default/debug/PWM.o
+                  0x000446        0x122 build/default/production/PWM.o
  .debug_pubtypes
-                  0x000568        0x1b8 build/default/debug/ADC.o
+                  0x000568        0x1b8 build/default/production/ADC.o
  .debug_pubtypes
-                  0x000720         0x99 build/default/debug/UART.o
+                  0x000720         0x99 build/default/production/UART.o
  .debug_pubtypes
-                  0x0007b9         0x3c build/default/debug/CB_TX1.o
+                  0x0007b9         0x3c build/default/production/CB_TX1.o
  .debug_pubtypes
-                  0x0007f5         0x5b build/default/debug/CB_RX1.o
+                  0x0007f5         0x5b build/default/production/CB_RX1.o
  .debug_pubtypes
-                  0x000850         0x59 build/default/debug/UART_Protocol.o
+                  0x000850         0x59 build/default/production/UART_Protocol.o
  .debug_pubtypes
-                  0x0008a9         0xab build/default/debug/QEI.o
+                  0x0008a9         0xab build/default/production/QEI.o
 
 __c30_signature
                   0x000954         0xba
  __c30_signature
-                  0x000954          0x6 build/default/debug/main.o
+                  0x000954          0x6 build/default/production/main.o
  __c30_signature
-                  0x00095a          0x6 build/default/debug/ChipConfig.o
+                  0x00095a          0x6 build/default/production/ChipConfig.o
  __c30_signature
-                  0x000960          0x6 build/default/debug/IO.o
+                  0x000960          0x6 build/default/production/IO.o
  __c30_signature
-                  0x000966          0x6 build/default/debug/timer.o
+                  0x000966          0x6 build/default/production/timer.o
  __c30_signature
-                  0x00096c          0x6 build/default/debug/Robot.o
+                  0x00096c          0x6 build/default/production/Robot.o
  __c30_signature
-                  0x000972          0x6 build/default/debug/Toolbox.o
+                  0x000972          0x6 build/default/production/Toolbox.o
  __c30_signature
-                  0x000978          0x6 build/default/debug/PWM.o
+                  0x000978          0x6 build/default/production/PWM.o
  __c30_signature
-                  0x00097e          0x6 build/default/debug/ADC.o
+                  0x00097e          0x6 build/default/production/ADC.o
  __c30_signature
-                  0x000984          0x6 build/default/debug/UART.o
+                  0x000984          0x6 build/default/production/UART.o
  __c30_signature
-                  0x00098a          0x6 build/default/debug/CB_TX1.o
+                  0x00098a          0x6 build/default/production/CB_TX1.o
  __c30_signature
-                  0x000990          0x6 build/default/debug/CB_RX1.o
+                  0x000990          0x6 build/default/production/CB_RX1.o
  __c30_signature
-                  0x000996          0x6 build/default/debug/UART_Protocol.o
+                  0x000996          0x6 build/default/production/UART_Protocol.o
  __c30_signature
-                  0x00099c          0x6 build/default/debug/QEI.o
+                  0x00099c          0x6 build/default/production/QEI.o
  __c30_signature
                   0x0009a2          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\liblega-pic30-elf.a(crt0_extendedep.o)
  __c30_signature
@@ -3109,132 +3054,132 @@ __c30_signature
  __c30_signature
                   0x000a08          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatundisf.epeo)
 
-.nbss               0x1050         0x30
- .nbss              0x1050         0x12 build/default/debug/UART_Protocol.o
-                    0x1050                  _rcvState
-                    0x1052                  _isValidSOF
-                    0x1054                  _lastInvalidChar
-                    0x1056                  _msgDecodedFunction
-                    0x1058                  _msgDecodedPayloadLength
-                    0x105a                  _msgDecodedPayloadIndex
-                    0x105c                  _receivedChecksum
-                    0x105d                  _calculatedChecksum
-                    0x105e                  _isValidChecksum
-                    0x1060                  _decodeFinishedFlag
- .nbss              0x1062          0xc build/default/debug/ADC.o
-                    0x1062                  _ADCResultIndex
-                    0x106c                  _ADCConversionFinishedFlag
- .nbss              0x106e          0x6 build/default/debug/timer.o
-                    0x106e                  _timestamp
-                    0x1072                  _toggle
- .nbss              0x1074          0x6 build/default/debug/CB_TX1.o
-                    0x1074                  _cbTx1Head
-                    0x1076                  _cbTx1Tail
-                    0x1078                  _isTransmitting
- .nbss              0x107a          0x4 build/default/debug/CB_RX1.o
-                    0x107a                  _cbRx1Head
-                    0x107c                  _cbRx1Tail
- .nbss              0x107e          0x2 build/default/debug/main.o
-                    0x107e                  _stateRobot
-                    0x107f                  _nextStateRobot
+.nbss               0x1000         0x30
+ .nbss              0x1000         0x12 build/default/production/UART_Protocol.o
+                    0x1000                  _rcvState
+                    0x1002                  _isValidSOF
+                    0x1004                  _lastInvalidChar
+                    0x1006                  _msgDecodedFunction
+                    0x1008                  _msgDecodedPayloadLength
+                    0x100a                  _msgDecodedPayloadIndex
+                    0x100c                  _receivedChecksum
+                    0x100d                  _calculatedChecksum
+                    0x100e                  _isValidChecksum
+                    0x1010                  _decodeFinishedFlag
+ .nbss              0x1012          0xc build/default/production/ADC.o
+                    0x1012                  _ADCResultIndex
+                    0x101c                  _ADCConversionFinishedFlag
+ .nbss              0x101e          0x6 build/default/production/timer.o
+                    0x101e                  _timestamp
+                    0x1022                  _toggle
+ .nbss              0x1024          0x6 build/default/production/CB_TX1.o
+                    0x1024                  _cbTx1Head
+                    0x1026                  _cbTx1Tail
+                    0x1028                  _isTransmitting
+ .nbss              0x102a          0x4 build/default/production/CB_RX1.o
+                    0x102a                  _cbRx1Head
+                    0x102c                  _cbRx1Tail
+ .nbss              0x102e          0x2 build/default/production/main.o
+                    0x102e                  _stateRobot
+                    0x102f                  _nextStateRobot
 
-.ndata              0x1080          0x2
- .ndata             0x1080          0x2 build/default/debug/PWM.o
-                    0x1080                  _acceleration
-                    0x1081                  _deceleration
+.ndata              0x1030          0x2
+ .ndata             0x1030          0x2 build/default/production/PWM.o
+                    0x1030                  _acceleration
+                    0x1031                  _deceleration
 
-.nbss               0x1082          0x2
- .nbss              0x1082          0x2 build/default/debug/PWM.o
-                    0x1082                  _accD
-                    0x1083                  _accG
+.nbss               0x1032          0x2
+ .nbss              0x1032          0x2 build/default/production/PWM.o
+                    0x1032                  _accD
+                    0x1033                  _accG
 
-.bss                0x1084        0x8a6
- .bss               0x1084        0x400 build/default/debug/CB_TX1.o
-                    0x1084                  _cbTx1Buffer
- .bss               0x1484        0x400 build/default/debug/CB_RX1.o
-                    0x1484                  _cbRx1Buffer
- .bss               0x1884         0x80 build/default/debug/UART_Protocol.o
-                    0x1884                  _msgDecodedPayload
- .bss               0x1904         0x26 build/default/debug/Robot.o
-                    0x1904                  _robotState
+.bss                0x1034        0x8a6
+ .bss               0x1034        0x400 build/default/production/CB_TX1.o
+                    0x1034                  _cbTx1Buffer
+ .bss               0x1434        0x400 build/default/production/CB_RX1.o
+                    0x1434                  _cbRx1Buffer
+ .bss               0x1834         0x80 build/default/production/UART_Protocol.o
+                    0x1834                  _msgDecodedPayload
+ .bss               0x18b4         0x26 build/default/production/Robot.o
+                    0x18b4                  _robotState
 
 .config_IESO      0x0557f8          0x2
- .config_IESO     0x0557f8          0x2 build/default/debug/ChipConfig.o
+ .config_IESO     0x0557f8          0x2 build/default/production/ChipConfig.o
 
 .config_FCKSM     0x0557f6          0x2
- .config_FCKSM    0x0557f6          0x2 build/default/debug/ChipConfig.o
+ .config_FCKSM    0x0557f6          0x2 build/default/production/ChipConfig.o
 
 .config_FWDTEN    0x0557f4          0x2
  .config_FWDTEN
-                  0x0557f4          0x2 build/default/debug/ChipConfig.o
+                  0x0557f4          0x2 build/default/production/ChipConfig.o
 
 .config_WDTWIN    0x0557f2          0x2
  .config_WDTWIN
-                  0x0557f2          0x2 build/default/debug/ChipConfig.o
+                  0x0557f2          0x2 build/default/production/ChipConfig.o
 
 .config_JTAGEN    0x0557f0          0x2
  .config_JTAGEN
-                  0x0557f0          0x2 build/default/debug/ChipConfig.o
+                  0x0557f0          0x2 build/default/production/ChipConfig.o
 
 .ivt._T3Interrupt
                   0x000024          0x2
  .ivt._T3Interrupt
-                  0x000024          0x2 build/default/debug/timer.o
+                  0x000024          0x2 build/default/production/timer.o
 
 .ivt._T1Interrupt
                   0x00001a          0x2
  .ivt._T1Interrupt
-                  0x00001a          0x2 build/default/debug/timer.o
+                  0x00001a          0x2 build/default/production/timer.o
 
 .ivt._T4Interrupt
                   0x00004a          0x2
  .ivt._T4Interrupt
-                  0x00004a          0x2 build/default/debug/timer.o
+                  0x00004a          0x2 build/default/production/timer.o
 
 .ivt._AD1Interrupt
                   0x00002e          0x2
  .ivt._AD1Interrupt
-                  0x00002e          0x2 build/default/debug/ADC.o
+                  0x00002e          0x2 build/default/production/ADC.o
 
 .ivt._U1TXInterrupt
                   0x00002c          0x2
  .ivt._U1TXInterrupt
-                  0x00002c          0x2 build/default/debug/CB_TX1.o
+                  0x00002c          0x2 build/default/production/CB_TX1.o
 
 .ivt._U1RXInterrupt
                   0x00002a          0x2
  .ivt._U1RXInterrupt
-                  0x00002a          0x2 build/default/debug/CB_RX1.o
+                  0x00002a          0x2 build/default/production/CB_RX1.o
 
 .const              0x8776          0x8 load address 0x000776  
- .const             0x8776          0x8 build/default/debug/main.o
+ .const             0x8776          0x8 build/default/production/main.o
 
 .text             0x00077e        0xf94
- .text            0x00077e        0x34c build/default/debug/UART_Protocol.o
+ .text            0x00077e        0x34c build/default/production/UART_Protocol.o
                   0x00077e                  _UartCalculateChecksum
                   0x0007ce                  _UartEncodeAndSendMessage
                   0x000880                  _UartDecodeMessage
                   0x00095c                  _UartProcessDecodedMessage
- .text            0x000aca        0x2dc build/default/debug/PWM.o
+ .text            0x000aca        0x2dc build/default/production/PWM.o
                   0x000aca                  _InitPWM
                   0x000b02                  _PWMSetSpeed
                   0x000bc4                  _PWMSetSpeedConsigne
                   0x000be6                  _PWMUpdateSpeed
- .text            0x000da6        0x238 build/default/debug/timer.o
+ .text            0x000da6        0x238 build/default/production/timer.o
                   0x000da6                  _InitTimer23
                   0x000dd8                  _InitTimer1
                   0x000dee                  _InitTimer4
                   0x000e04                  _SetFreqTimer1
                   0x000eec                  _SetFreqTimer4
                   0x000fd4                  _resetTimestamp
- .text            0x000fde        0x1ee build/default/debug/main.o
+ .text            0x000fde        0x1ee build/default/production/main.o
                   0x000fde                  _main
                   0x001006                  _SetRobotState
                   0x001016                  _SetRobotAutoControlState
                   0x00102e                  _UartUpdateState
                   0x00106e                  _OperatingSystemLoop
                   0x0011c6                  _SetNextRobotStateInAutomaticMode
- .text            0x0011cc        0x1de build/default/debug/ADC.o
+ .text            0x0011cc        0x1de build/default/production/ADC.o
                   0x0011cc                  _InitADC1
                   0x001238                  _ADC1StartConversionSequence
                   0x001240                  _ADCGetResult
@@ -3242,14 +3187,14 @@ __c30_signature
                   0x001250                  _ADCClearConversionFinishedFlag
                   0x001258                  _ADCUpdateValues
                   0x00136a                  _ADCSendValues
- .text            0x0013aa        0x10e build/default/debug/Toolbox.o
+ .text            0x0013aa        0x10e build/default/production/Toolbox.o
                   0x0013aa                  _Abs
                   0x0013d6                  _Max
                   0x001406                  _Min
                   0x001436                  _LimitToInterval
                   0x001488                  _RadianToDegree
                   0x0014a0                  _DegreeToRadian
- .text            0x0014b8         0xba build/default/debug/CB_TX1.o
+ .text            0x0014b8         0xba build/default/production/CB_TX1.o
                   0x0014b8                  _SendMessage
                   0x0014f0                  _CB_TX1_Add
                   0x00150e                  _CB_TX1_Get
@@ -3257,24 +3202,24 @@ __c30_signature
                   0x00153e                  _CB_TX1_IsTranmitting
                   0x001546                  _CB_TX1_RemainingSize
                   0x001552                  _CB_TX1_GetDataSize
- .text            0x001572         0x7c build/default/debug/CB_RX1.o
+ .text            0x001572         0x7c build/default/production/CB_RX1.o
                   0x001572                  _CB_RX1_Add
                   0x001590                  _CB_RX1_Get
                   0x0015ae                  _CB_RX1_IsDataAvailable
                   0x0015c2                  _CB_RX1_GetRemainingSize
                   0x0015ce                  _CB_RX1_GetDataSize
- .text            0x0015ee         0x68 build/default/debug/UART.o
+ .text            0x0015ee         0x68 build/default/production/UART.o
                   0x0015ee                  _InitUART
                   0x00161e                  _SendMessageDirect
- .text            0x001656         0x66 build/default/debug/IO.o
+ .text            0x001656         0x66 build/default/production/IO.o
                   0x001656                  _InitIO
- .text            0x0016bc         0x56 build/default/debug/ChipConfig.o
+ .text            0x0016bc         0x56 build/default/production/ChipConfig.o
                   0x0016bc                  _InitOscillator
 
 .dinit            0x001712         0x4c
  .dinit           0x001712         0x4c data_init
 
 .text             0x00175e         0x24
- .text            0x00175e         0x24 build/default/debug/QEI.o
+ .text            0x00175e         0x24 build/default/production/QEI.o
                   0x00175e                  _InitQEI1
                   0x001770                  _InitQEI2
