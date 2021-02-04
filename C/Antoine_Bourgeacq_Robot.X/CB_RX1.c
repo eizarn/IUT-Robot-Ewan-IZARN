@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "CB_RX1.h"
 
-#define CBRX1_BUFFER_SIZE 1024
+#define CBRX1_BUFFER_SIZE 128
 
 
 

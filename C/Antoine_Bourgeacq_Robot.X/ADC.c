@@ -3,6 +3,7 @@
 #include "main.h"
 #include "Robot.h"
 #include "UART_Protocol.h"
+#include "Utilities.h"
 
 unsigned char ADCResultIndex = 0;
 static unsigned int ADCResult[4];
@@ -128,29 +129,13 @@ void ADCUpdateValues(void)
 
 void ADCSendValues(void)
 {
-    unsigned char ADCValue[5] = {(unsigned char)robotState.distanceTelemetreGauche,
-            (unsigned char)robotState.distanceTelemetreCentre, (unsigned char)robotState.distanceTelemetreDroit,
-            (unsigned char)robotState.distanceTelemetreXGauche, (unsigned char)robotState.distanceTelemetreXDroit};
-//    
-//    if(robotState.distanceTelemetreGauche < 250)
-//        ADCValue[0] = (int) robotState.distanceTelemetreGauche;
-//    else ADCValue[0] = 250;
-//    
-//    if(robotState.distanceTelemetreCentre < 250)
-//        ADCValue[1] = (int) robotState.distanceTelemetreCentre;
-//    else ADCValue[1] = 250;
-//    
-//    if(robotState.distanceTelemetreDroit < 250)
-//        ADCValue[2] = (int) robotState.distanceTelemetreDroit;
-//    else ADCValue[2] = 250;
-//    
-//    if(robotState.distanceTelemetreXGauche < 250)
-//        ADCValue[3] = (int) robotState.distanceTelemetreXGauche;
-//    else ADCValue[3] = 250;
-//    
-//    if(robotState.distanceTelemetreXDroit < 250)
-//        ADCValue[4] = (int) robotState.distanceTelemetreXDroit;
-//    else ADCValue[4] = 250;
-
-//    UartEncodeAndSendMessage (0x0030, 5, ADCValue);
+    unsigned char ADCSentValue[20];
+    
+    getBytesFromFloat(ADCSentValue, 0, robotState.distanceTelemetreGauche);
+    getBytesFromFloat(ADCSentValue, 4, robotState.distanceTelemetreCentre);
+    getBytesFromFloat(ADCSentValue, 8, robotState.distanceTelemetreDroit);
+    getBytesFromFloat(ADCSentValue, 12, robotState.distanceTelemetreXGauche);
+    getBytesFromFloat(ADCSentValue, 16, robotState.distanceTelemetreXDroit);
+    
+    UartEncodeAndSendMessage(0x30, 20, ADCSentValue);
 }

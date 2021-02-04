@@ -22,7 +22,6 @@ using System.Security.RightsManagement;
 using MouseKeyboardActivityMonitor.WinApi;
 using MouseKeyboardActivityMonitor;
 using System.Windows.Forms;
-using System.Text;
 using System.IO;
 using Utilities;
 
@@ -303,11 +302,16 @@ namespace Robotinterface2
                             textBoxReception.Text += "] ";
                         else
                             textBoxReception.Text += ", invalid checksum !] ";
+
+
+                        //textBoxReception.AppendText(Encoding.ASCII.GetString(CurMsg.msgDecodedPayload));
+                        
                         for (int i = 0; i < CurMsg.msgDecodedPayloadLength; i++)
                         {
                             textBoxReception.Text += (char)CurMsg.msgDecodedPayload[i];
                         }
                         textBoxReception.Text += "\n";
+                        
                         break;
 
                     case 0x0020: // reglage LED
@@ -468,7 +472,7 @@ namespace Robotinterface2
                 //Détermination de l?état à venir du robot
                 if (positionObstacle == obstacle.PAS_D_OBSTACLE)
                 {
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_AVANCE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_AVANCE });
                     stateChanged = (int)stateRobot.STATE_AVANCE;
                     if (timestamp_1 - timestamp > 20)
                     {
@@ -483,13 +487,13 @@ namespace Robotinterface2
                     {
                         if (TelemetreG > TelemetreD)
                         {
-                            //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
+                            UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
                             stateChanged = (int)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE;
                             coteChoisi = 1;
                         }
                         else
                         {
-                            //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
+                            UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
                             stateChanged = (int)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE;
                             coteChoisi = 2;
                         }
@@ -498,7 +502,7 @@ namespace Robotinterface2
                     {
                         if (coteChoisi != 0)
                         {
-                            //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)(6 + coteChoisi * 2) });
+                            UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)(6 + coteChoisi * 2) });
                             stateChanged = 6 + coteChoisi * 2;
                         }
                     }
@@ -506,18 +510,18 @@ namespace Robotinterface2
                 else if (positionObstacle == obstacle.OBSTACLE_A_DROITE)
                 {
                     nombreTours++;
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_GAUCHE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_GAUCHE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_GAUCHE;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_A_GAUCHE)
                 {
                     nombreTours++;
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_DROITE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_DROITE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_DROITE;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_ELOIGNE)
                 {
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_AVANCE_LENTEMENT });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_AVANCE_LENTEMENT });
                     stateChanged = (int)stateRobot.STATE_AVANCE_LENTEMENT;
                     if (timestamp_1 - timestamp > 20)
                     {
@@ -527,36 +531,36 @@ namespace Robotinterface2
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_CENTRE_DROIT)
                 {
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_CENTRE_GAUCHE)
                 {
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_E_DROIT)
                 {
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_LENTEMENT_GAUCHE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_LENTEMENT_GAUCHE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_LENTEMENT_GAUCHE;
                     nombreTours++;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_E_GAUCHE)
                 {
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_LENTEMENT_DROITE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_LENTEMENT_DROITE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_LENTEMENT_DROITE;
                     nombreTours++;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_CRITIQUE_DROITE)
                 {
                     nombreTours++;
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_SUR_PLACE_GAUCHE;
                 }
                 else if (positionObstacle == obstacle.OBSTACLE_CRITIQUE_GAUCHE)
                 {
                     nombreTours++;
-                    //UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
+                    UartEncodeAndSendMessage(0x0051, 1, new byte[] { (byte)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE });
                     stateChanged = (int)stateRobot.STATE_TOURNE_SUR_PLACE_DROITE;
                 }
             }

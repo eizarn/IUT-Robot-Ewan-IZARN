@@ -1,4 +1,5 @@
-build/default/production/QEI.o:  \
-QEI.c  \
-IO.h  \
-QEI.h 
+build/default/production/QEI.o: QEI.c IO.h QEI.h
+
+IO.h:
+
+QEI.h:
