@@ -5,6 +5,7 @@
 #include "main.h"
 #include "Robot.h"
 #include "PWM.h"
+#include "QEI.h"
 
 unsigned long timestamp;
 unsigned char toggle = 0;
@@ -60,12 +61,14 @@ void __attribute__((interrupt, no_auto_psv)) _T3Interrupt(void) {
 void __attribute__((interrupt, no_auto_psv)) _T1Interrupt(void) {
     IFS0bits.T1IF = 0;
     
-    ADC1StartConversionSequence();
-    ADCUpdateValues();
-    ADCSendValues();
+//    ADC1StartConversionSequence();
+//    ADCUpdateValues();
+//    ADCSendValues();
     
     OperatingSystemLoop(); 
     PWMUpdateSpeed();
+    
+    QEIUpdateData();
 }
 
 //Interruption du Timer 4 

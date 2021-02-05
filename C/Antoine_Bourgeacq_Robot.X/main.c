@@ -14,6 +14,7 @@
 #include "CB_RX1.h"
 #include "CB_TX1.h"
 #include "UART_Protocol.h"
+#include "QEI.h"
 
 unsigned char stateRobot;
 unsigned char nextStateRobot = 0;
@@ -31,6 +32,21 @@ int main(void) {
     InitOscillator();
     //InitTimer23();
     InitUART();
+    InitQEI1();
+    InitQEI2();
+    
+    // on met des trucs à zéro
+    robotState.vitesseDroitFromOdometry=0;
+    robotState.vitesseGaucheFromOdometry=0;
+    robotState.vitesseLineaireFromOdometry=0;
+    robotState.vitesseAngulaireFromOdometry=0;
+
+    robotState.xPosFromOdometry=0;
+    robotState.xPosFromOdometry_1=0;
+    robotState.yPosFromOdometry=0;
+    robotState.yPosFromOdometry_1=0;
+    robotState.angleRadianFromOdometry=0;
+    robotState.angleRadianFromOdometry_1=0;
     
     /****************************************************************************************************/
     // Boucle Principale
