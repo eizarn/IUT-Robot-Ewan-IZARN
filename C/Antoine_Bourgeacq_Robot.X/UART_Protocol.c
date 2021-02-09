@@ -6,6 +6,7 @@
 #include "PWM.h"
 #include "main.h"
 #include "CB_TX1.h"
+#include "Robot.h"
 
 int msgDecodedFunction =0;
 int msgDecodedPayloadLength =0;
@@ -13,7 +14,7 @@ unsigned char msgDecodedPayload[128];
 int msgDecodedPayloadIndex =0;
 
 unsigned char UartCalculateChecksum(int msgFunction, int msgPayloadLength, unsigned char* msgPayload){
-    char actuel, sortie = 0;
+    char sortie = 0;
 
     sortie ^= 0xFE;
     sortie ^= (char)(msgFunction<<8);
@@ -174,6 +175,14 @@ void UartProcessDecodedMessage (int function, int payloadLength, unsigned char *
             
         case 0x0052 : // mode automatique
             SetRobotAutoControlState(msgDecodedPayload[0]);
+            break;
+            
+        case 0x0053:
+            robotState.vitesseAngulaireConsigne = (char)msgDecodedPayload[0];
+            break;
+
+        case 0x0054:
+            robotState.vitesseLineaireConsigne = (char)msgDecodedPayload[0];
             break;
     }
 }

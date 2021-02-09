@@ -104,8 +104,10 @@ void OperatingSystemLoop(void) {
     switch (stateRobot) {
         case STATE_ATTENTE:
             timestamp = 0;
-            PWMSetSpeedConsigne(0, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(0, MOTEUR_GAUCHE);
+            //PWMSetSpeedConsigne(0, MOTEUR_DROIT);
+            //PWMSetSpeedConsigne(0, MOTEUR_GAUCHE);
+            robotState.vitesseAngulaireConsigne = 0;
+            robotState.vitesseLineaireConsigne = 0;
             stateRobot = STATE_ATTENTE_EN_COURS;
             UartUpdateState();
             break;
@@ -115,8 +117,10 @@ void OperatingSystemLoop(void) {
             break;
 
         case STATE_AVANCE:
-            PWMSetSpeedConsigne(40, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(40, MOTEUR_GAUCHE);
+//            PWMSetSpeedConsigne(40, MOTEUR_DROIT);
+//            PWMSetSpeedConsigne(40, MOTEUR_GAUCHE);
+            robotState.vitesseAngulaireConsigne = 0;
+            robotState.vitesseLineaireConsigne = 4;
             stateRobot = STATE_AVANCE_EN_COURS;
             UartUpdateState();
             break;
@@ -145,8 +149,10 @@ void OperatingSystemLoop(void) {
             break;
 
         case STATE_TOURNE_SUR_PLACE_GAUCHE:
-            PWMSetSpeedConsigne(13, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(-13, MOTEUR_GAUCHE);
+//            PWMSetSpeedConsigne(13, MOTEUR_DROIT);
+//            PWMSetSpeedConsigne(-13, MOTEUR_GAUCHE);
+            robotState.vitesseAngulaireConsigne = PI;
+            robotState.vitesseLineaireConsigne = 0;
             stateRobot = STATE_TOURNE_SUR_PLACE_GAUCHE_EN_COURS;
             UartUpdateState();
             break;
@@ -155,8 +161,10 @@ void OperatingSystemLoop(void) {
             break;
 
         case STATE_TOURNE_SUR_PLACE_DROITE:
-            PWMSetSpeedConsigne(-13, MOTEUR_DROIT);
-            PWMSetSpeedConsigne(13, MOTEUR_GAUCHE);
+//            PWMSetSpeedConsigne(-13, MOTEUR_DROIT);
+//            PWMSetSpeedConsigne(13, MOTEUR_GAUCHE);
+            robotState.vitesseAngulaireConsigne = -PI;
+            robotState.vitesseLineaireConsigne = 0;
             stateRobot = STATE_TOURNE_SUR_PLACE_DROITE_EN_COURS;
             UartUpdateState();
             break;

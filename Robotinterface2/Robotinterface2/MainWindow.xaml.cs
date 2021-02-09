@@ -381,8 +381,8 @@ namespace Robotinterface2
 
                         // odo 1
                         tab = CurMsg.msgDecodedPayload.GetRange(4, 4);
-                        positionXOdo = BitConverter.ToInt32(tab, 0);
-                        //positionXOdo = tab.GetFloat();
+                        //positionXOdo = BitConverter.ToInt32(tab, 0);
+                        positionXOdo = tab.GetFloat();
 
                         // odo 2
                         tab = CurMsg.msgDecodedPayload.GetRange(8, 4);
@@ -597,6 +597,12 @@ namespace Robotinterface2
                 case "Single byte":
                     Sendmessage();
                     break;
+
+                case "State":
+                    byte[] arrayS = Encoding.ASCII.GetBytes(textBoxEmission.Text);
+                    arrayS[0] -= 0x30;
+                    UartEncodeAndSendMessage(0x0051, 1, arrayS);
+                    break;
             }
 
             textBoxEmission.Clear();
@@ -752,7 +758,9 @@ namespace Robotinterface2
                     comboBox.Items.Add("Text");
                     comboBox.Items.Add("Led");
                     comboBox.Items.Add("Speed");
+                    comboBox.Items.Add("State");
                     comboBox.Items.Add("Single byte");
+                    
 
                     comboBox.SelectedItem = comboBox.Items[0];
 
