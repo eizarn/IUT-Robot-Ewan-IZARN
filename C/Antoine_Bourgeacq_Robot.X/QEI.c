@@ -8,6 +8,7 @@
 #include "UART_Protocol.h"
 
 #define POSITION_DATA 0x0061
+#define POSITION_CONSIGNE 0x0062
 
 float QeiDroitPosition;
 float QeiGauchePosition;
@@ -97,4 +98,18 @@ void SendPositionData()
     getBytesFromFloat(positionPayload, 20, (float)robotState.vitesseAngulaireFromOdometry);
     
     UartEncodeAndSendMessage(POSITION_DATA, 24, positionPayload);
+   
+}
+
+void SendConsigne()
+{
+    unsigned char positionPayload[20];
+    getBytesFromInt32(positionPayload, 0, timestamp);
+    getBytesFromFloat(positionPayload, 4, (float)robotState.vitesseLineaireConsigne);
+    getBytesFromFloat(positionPayload, 8, (float)robotState.vitesseAngulaireConsigne);
+    getBytesFromFloat(positionPayload, 12, (float)robotState.vitesseGaucheConsigne);
+    getBytesFromFloat(positionPayload, 16, (float)robotState.vitesseDroiteConsigne);
+    
+    
+    UartEncodeAndSendMessage(POSITION_CONSIGNE, 20, positionPayload);
 }

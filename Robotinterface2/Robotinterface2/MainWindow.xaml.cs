@@ -57,6 +57,13 @@ namespace Robotinterface2
         float linearSpeedOdo = 0;
         float angularSpeedOdo = 0;
 
+
+        long receptionTimeConsigne = 0;
+        float GaucheConsigne = 0;
+        float DroiteConsigne = 0;
+        float LineaireConsigne = 0;
+        float AngulaireConsigne = 0;
+  
         int TelemetreEG = 0;
         int TelemetreG = 0;
         int TelemetreC = 0;
@@ -292,6 +299,7 @@ namespace Robotinterface2
             while (Messages.Count>0)
             {
                 Message CurMsg = Messages.Dequeue();
+                byte[] tab = new byte[4];
                 switch (CurMsg.msgDecodedFunction)
                 {
                     case 0x0080: // transmission texte
@@ -370,18 +378,16 @@ namespace Robotinterface2
                         break;
 
                     case 0x0061: // odométrie
-                        byte[] tab = new byte[4];
-
                         // timestamp
                         tab = CurMsg.msgDecodedPayload.GetRange(0, 4);
-                        receptionTimeOdo = tab[0] << 24;
-                        receptionTimeOdo += tab[0] << 16;
-                        receptionTimeOdo += tab[0] << 8;
-                        receptionTimeOdo += tab[0] << 0;
+                        receptionTimeConsigne = tab[0] << 24;
+                        receptionTimeConsigne += tab[0] << 16;
+                        receptionTimeConsigne += tab[0] << 8;
+                        receptionTimeConsigne += tab[0] << 0;
 
                         // odo 1
                         tab = CurMsg.msgDecodedPayload.GetRange(4, 4);
-                        //positionXOdo = BitConverter.ToInt32(tab, 0);
+                        //positionXOdo = BitConverter.ToInt32(tab, 0); 
                         positionXOdo = tab.GetFloat();
 
                         // odo 2
@@ -399,6 +405,33 @@ namespace Robotinterface2
                         // angular speed
                         tab = CurMsg.msgDecodedPayload.GetRange(20, 4);
                         angularSpeedOdo = tab.GetFloat();
+                        break;
+
+                    case 0x0062: // Consigne asserv
+                        tab = new byte[4];
+
+                        // timestamp 
+                        tab = CurMsg.msgDecodedPayload.GetRange(0, 4);
+                        receptionTimeOdo = tab[0] << 24;
+                        receptionTimeOdo += tab[0] << 16;
+                        receptionTimeOdo += tab[0] << 8;
+                        receptionTimeOdo += tab[0] << 0;
+
+                        // Consigne Linéaire
+                        tab = CurMsg.msgDecodedPayload.GetRange(4, 4);
+                        LineaireConsigne = tab.GetFloat();
+
+                        // Consigne Angulaire
+                        tab = CurMsg.msgDecodedPayload.GetRange(8, 4);
+                        AngulaireConsigne = tab.GetFloat();
+
+                        // Consigne Gauche
+                        tab = CurMsg.msgDecodedPayload.GetRange(12, 4);
+                        GaucheConsigne = tab.GetFloat();
+
+                        // Consigne Droite
+                        tab = CurMsg.msgDecodedPayload.GetRange(16, 4);
+                        DroiteConsigne = tab.GetFloat();
                         break;
                 }
             }
@@ -838,7 +871,7 @@ namespace Robotinterface2
             //    AutomaticMode.Background = Brushes.Olive;
             //    payload[0] = 1;
             //}
-            //else 
+            //else
             if (stateMachineActivated)
             {
                 AutomaticMode.Content = "Auto";
@@ -869,7 +902,7 @@ namespace Robotinterface2
                         rcvState = StateReception.FunctionMSB;
                         isValidSOF = true;
                     }
-                    else
+                    else 
                     {
                         isValidSOF = false;
                         lastInvalidChar = c;
